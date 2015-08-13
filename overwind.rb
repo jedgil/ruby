@@ -24,15 +24,23 @@ puts "\t\tby Mortimer Jensen"
 
 print "\n\n\n"
 
-print "press ENTER to continue"
+print "press ENTER to continue  "
 open = gets.chomp
+
 if open.empty?
   system "clear"
 end
 
+# NEED SOME HELP WITH THIS. LOOP STRUCTURE IS FUNCTIONAL BUT UGLY.
+# TRYING TO SIMPLY  PROMPT FOR THE ENTER KEY BEFORE CLEARING SCREEN
+
 until open.empty?
-  print "try again"
+  print "try again. just press ENTER this time."
   open = gets.chomp
+end
+
+if open.empty?
+  system "clear"
 end
 
 # first scene
