@@ -50,10 +50,10 @@ puts "The barkeeper is staring no-so-subtly at you and your empty glass,"
 puts "and his frequent glances at the clock tell you that closing time is coming soon."
 puts "There is a bathroom on the south side of the room and a neon sign illuminates the EXIT to the west.\n\n"
 print "What direction would you like to go? "
-dir1 = gets.chomp
-if dir1 == "south" || dir1 == "South"
+dir_bar = gets.chomp
+if dir_bar == "south" || dir_bar == "South"
   puts "\n\nPOTTY TIME\n\n"
-elsif dir1 == "west" || dir1 == "West"
+elsif dir_bar == "west" || dir_bar == "West"
   puts "\n\nFREE AT LAST\n\n"
 else
   print "Try again! "
