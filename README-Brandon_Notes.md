@@ -40,11 +40,3 @@ The problem with this approach is that it’s going to get pretty unwieldy prett
 3) With this sort of game, your choices branch into different areas (I’m sure you’re familiar with Interactive Fiction being a vintage tech geek), but should I be calling those as whole separate .rb files? If so, how do I do that? If not, does everything just get nested on the same page?
 
 I think it’s always a good idea to organize your code into separate files. In the ruby world that usually means classes/modules get their own files. But it really doesn’t matter, ruby will let you split things up however you want. This guide has some good info on organizing code into different files: http://rubylearning.com/satishtalim/including_other_files_in_ruby.html
-
-No rush, this is purely for personal development.
-
-Jedediah Gilchrist
-Manager, Product Operations  |  NWEA™
-PHONE 503.548.5105  |  FAX 503.639.7873
-NWEA.ORG  |  Partnering to Help All Kids Learn®
-Skills Navigator™ – the NEW skills mastery and progress monitoring assessment from NWEA™
