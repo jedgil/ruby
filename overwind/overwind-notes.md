@@ -12,8 +12,7 @@ http://rubylearning.com/satishtalim/including_other_files_in_ruby.html
 * wall of cars to the south
 * use keys to get into car
 * inside car can get crowbar to pry open window to pet shop
-* letter in pet shop explains what happened:
-**  letter written from myself to myself. I played a prank on the town where I convinced the residents to leave and board the windows. then I blacked out and woke up in the bar.
+* letter in pet shop explains what happened: letter written from myself to myself. I played a prank on the town where I convinced the residents to leave and board the windows. then I blacked out and woke up in the bar.
 
 # MAP
 
