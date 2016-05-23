@@ -13,9 +13,3 @@ sum = ary2.reduce(:+)
 
 puts ary2
 puts "and the total is " + "#{sum}"
-
-=begin
-ary1 = (0..100).to_a
-
-ary1.each { |i| puts i if i%3 == 0 && i%5 == 0 }
-=end
