@@ -7,7 +7,6 @@ b = Integer(gets.chomp)
 
 ary1 = (a..b).to_a
 ary2 = ary1.map { |i| i * 7 }
-# i*7 isn't changing the values of the array. why is that?
 
 sum = ary2.reduce(:+)
 
