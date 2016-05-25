@@ -3,9 +3,9 @@ system "clear"
 def num_a
   print "Pick a number from 1 to 50: "
   $a = Integer(gets.chomp)
-    if $a > 50 then
+    until $a < 50
       puts "Um, try again please."
-    else print "Thanks!"
+# need something here to prompt for another response until $a is less than 50
     end
 end
 
